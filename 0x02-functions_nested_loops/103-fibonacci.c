@@ -1,6 +1,9 @@
 #include <stdio.h>
 /**
-*prints sum of even fibonacci
+*main - prints sum of even fibonacci
+*suit elements
+*fibonacci suit numbers
+*Return: return 0
 */
 int main(void)
 {

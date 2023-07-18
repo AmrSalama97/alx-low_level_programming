@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
-*prints out first 98
-
+*main - prints out first 98
+*fibonacci suit numbers
+*Return: return 0
 */
 int main(void)
 {
