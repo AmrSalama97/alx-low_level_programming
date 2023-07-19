@@ -3,7 +3,6 @@
 /**
 *this is a tester
 *for the positive_or_negative
-*Return 0
 */
 int main(void)
 {
