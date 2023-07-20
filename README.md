@@ -1,1 +1,1 @@
-0x00 Hello C
+C Hello world project
