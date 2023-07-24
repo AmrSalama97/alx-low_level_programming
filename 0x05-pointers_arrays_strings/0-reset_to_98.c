@@ -4,8 +4,8 @@
  * to a pointer 
  * and update the value
  */
-void reset_to_98(int *);
+void reset_to_98(int *)
 {
-	*n=98
+	*n=98;
 }
 
