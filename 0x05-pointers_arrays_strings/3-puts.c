@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *void _puts(char *str) - function
+ *puts(char *str) - function
  *for char in string
  *@char is the character
- *@string is the string
+ *@str is the string
  */
 
 void _puts(char *str)
