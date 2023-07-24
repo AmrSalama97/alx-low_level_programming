@@ -6,12 +6,6 @@
  */
 void reset_to_98(int *);
 {
-	int n ;
-	n=402 ;
-	putchar('/'"n value is %d " ,n);
-	p=&n;
-	*p=402;
-	putchar ('/'"n value is %p ",n);
-	return (0);
+	*n=98
 }
 
