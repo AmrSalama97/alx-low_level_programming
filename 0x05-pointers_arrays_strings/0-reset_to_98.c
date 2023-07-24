@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * takes the variable 
  * to a pointer 
