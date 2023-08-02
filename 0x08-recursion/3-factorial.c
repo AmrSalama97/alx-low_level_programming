@@ -3,6 +3,8 @@
 /**
  * factorial - gets factorial of n
  * @n: integer
+ * Return: On success 1.
+ * On error, 0 is returned
  */
 int factorial(int n)
 {
