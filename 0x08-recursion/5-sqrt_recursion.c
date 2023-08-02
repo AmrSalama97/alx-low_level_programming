@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
-
- * sqrt2 - Makes possible evalution from 1 to n
+ * sqrt2 - Makes possible to evaluate from 1 to n
  * @a: same as n
  * @b: number 1 to n
  * Return: On success 1.
