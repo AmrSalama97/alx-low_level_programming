@@ -3,6 +3,9 @@
 /**
  * _strlen_recursion - return length of string
  * @s: string
+ *
+ * Return: On success 1
+ * On error, 0 is returned
  */
 int _strlen_recursion(char *s)
 {
