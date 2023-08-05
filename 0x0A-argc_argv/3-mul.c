@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - Program that multiplies two numbers.
- * @argc: This is the argument count
+ * @args: This is the argument count
  * @argv: This is the argument vector
  * Return: 0;
  */
@@ -16,9 +16,9 @@ int main(int args, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	for (i = 1; index < args; index++)
+	for (i = 1; i < args; i++)
 	{
-		multiplication = multiplication * atoi(argv[index]);
+		multiplication = multiplication * atoi(argv[i]);
 	}
 	printf("%d\n", multiplication);
 	return (0);
