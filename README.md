@@ -1,1 +1,1 @@
-C Hello world project
+argv & argc
