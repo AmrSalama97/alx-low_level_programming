@@ -2,7 +2,6 @@
 #include <stdlib.h>
 /**
  *main -Write a program that multiplies two numbers.
- *Your program should print the result of the multiplication, followed by a new line
  *@args: this is the arguments count
  *@argv: this is the arguments vector
  *Return: this will return 1 failure and 0 in success
