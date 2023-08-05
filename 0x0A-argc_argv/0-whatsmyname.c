@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -11,7 +10,7 @@
 
 int main (int argc ,char *argv[])
 {
-	_putchar("The program name is %c",argv[0]);
-	_putchar ('\n');
+	printf("%c\n",argv[0]);
+	
 	return (0);
 }
