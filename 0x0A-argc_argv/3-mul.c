@@ -9,8 +9,7 @@
  */
 int main(int args, char *argv[])
 {
-	int i;
-	int multiplication;
+	int i, multiplication;
 	
 	multiplication = 1;
 	if (args < 3)
@@ -18,7 +17,7 @@ int main(int args, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	for (i = 0; i < args; i++)
+	for (i = 1; i < args; i++)
 	{
 		multiplication = multiplication * atoi(argv[i]);
 	}
