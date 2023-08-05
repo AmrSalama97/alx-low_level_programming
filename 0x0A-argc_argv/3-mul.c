@@ -10,20 +10,17 @@ int main(int args, char *argv[])
 {
 	int i;
 	int multiplication;
-
+	
+	multiplication = 1;
 	if (args < 3)
 	{
-		printf("Error\n";
+		printf("Error\n");
 		return (1);
 	}
-	if (args > 3)
+	for (i = 0; i < args; i++)
 	{
-		for (i = 0; i < args; i++)
-		{
 		multiplication = multiplication * atoi(argv[i]);
-		}
-		printf("%d\n", multiplication);
-		return (0);
 	}
-}
-			
+	printf("%d\n", multiplication);
+	return (0);
+}	
