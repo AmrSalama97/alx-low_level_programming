@@ -5,7 +5,7 @@
  *Your program should print the result of the multiplication, followed by a new line
  *@args: this is the arguments count
  *@argv: this is the arguments vector
- *Return: this will return 1 in success and error in failure
+ *Return: this will return 1 failure and 0 in success
  */
 int main(int args, char *argv[])
 {
@@ -23,4 +23,4 @@ int main(int args, char *argv[])
 	}
 	printf("%d\n", multiplication);
 	return (0);
-}	
+}
