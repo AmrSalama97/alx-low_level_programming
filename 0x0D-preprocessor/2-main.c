@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the name of the file 
- * Return: everything is ok
+ * main - prints the name of the file it was compiled from
+ * Return: (0) everything worked ok
  */
 
 int main(void)
