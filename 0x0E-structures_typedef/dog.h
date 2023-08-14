@@ -2,7 +2,7 @@
 #define _dog_h_
 
 /**
- * struct dog - such structure
+ * struct dog - such structure, wow
  * @name: dog's name
  * @age: dog's age
  * @owner: dog's owner
@@ -23,4 +23,4 @@ dog_t *new_dog(char *name, float age, char *owner);
 
 void free_dog(dog_t *d);
 
-#endif 
+#endif /* _dog_h_ */
