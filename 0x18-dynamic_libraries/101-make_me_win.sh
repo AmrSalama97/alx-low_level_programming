@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P .. https://raw.githubusercontent.com/amrsalama97/alx-low_level_programming/master/0x18-dynamic_libraries/libgiga.so
-export LD_PRELOAD="$PWD/../libgiga.so"
+wget -P /tmp https://github.com/AmrSalama97/alx-low_level_programming/tree/master/0x18-dynamic_libraries/iwin.so
+export LD_PRELOAD=/tmp/iwin.so
